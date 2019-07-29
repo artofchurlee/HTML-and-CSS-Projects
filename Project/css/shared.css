@@ -35,7 +35,7 @@ h1 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
-h1::after { /*This is the underline*/
+h1:after { /*This is the underline*/
     display: block;
     content:"";
     height: 2px;
@@ -152,7 +152,7 @@ section {
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba (0,0,0,0.9)
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
@@ -198,7 +198,7 @@ section {
 }
 
 .reservation {
-    width: 60%
+    width: 60%;
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
@@ -244,7 +244,7 @@ section {
     border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb (227,222,222);
+    background: rgb(227,222,222);
     box-shadow: 2px 3px 3px 0 rgba(0,0,0,0.3);
     font-family:'Raleway', sans-serif;
 }

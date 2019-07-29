@@ -3,20 +3,25 @@
 	<head>
 		<meta charset="utf-8">
 		<title>One Piece | Redefining Friendship</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 	
 	<!-- Nav -->
-	<a href="#home" id="link"> Home </a> |  
-	<a href="#pics"> Pictures </a> | 
-	<a href="#videos"> Videos </a> | 
-	<a href="#contact"> Contact </a> | 
-	<a href="#sources"> Sources </a>
+	<div class="nav">
+	<ul>
+	<li><a href="#home" id="link"> Home </a></li> |  
+	<li><a href="#pics"> Pictures </a></li> | 
+	<li><a href="#videos"> Videos </a></li> | 
+	<li><a href="#contact"> Contact </a></li> | 
+	<li><a href="#sources"> Sources </a></li>
+	</ul>
+	</div>
 	<!-- End Nav -->
 	
 	<!-- Home -->
 	<div id="home">
-		<span> The Crew </span>
+		<h1> The Crew </h1>
 		<p>One Piece is a story following Monkey D. Luffy on his adventure to become the pirate king. During his journey, he gains many friends and leaves each island better than before he arrived. 
 		Luffy rescues and befriends a swordsman named Roronoa Zoro, and they head off in search of the One Piece. 
 		They are joined in their journey by Nami, a navigator and thief; Usopp, a sniper and a liar; and Sanji, a womanizing chef. 
@@ -31,9 +36,13 @@
 	<section>
 		<div id="pics">
 			<h1> Pictures of the Crew </h1>
+			<div class="photo">
 			<img src="./op_1.png" alt="Image of the Crew" width="640" height="369">
+			</div>
 			<p> This is an image of the crew. </p>
+			<div class="photo">
 			<img src="./op_2.png" alt="20th Anniversary Color Spread" width="612" height="377">
+			</div>
 			<p> This is the color spread Eiichiro Oda drew for the 20th anniversary of One Piece.<br>
 			There is also a figurine set with all the figures.</p>
 		</div>
@@ -57,12 +66,14 @@
 		<div id="contact">
 		<h3>Contact us for more information!</h3>
 		<p>Please contact us if you want to request more information about the series!</p>
-		<div>
+		<div class="rsvp">
 			<form action="" method="post">
-				<input type="text" name="Name">
-				<input type="text" name="Email Address">
-				<input type="text" name="Questions and Concerns">
-				<input type="submit" value="Submit">
+				<ul>
+				<li><input type="text" value="" placeholder="Name"></li>
+				<li><input type="text" value="" placeholder="Email Address"></li>
+				<li><input type="text" value="" placeholder="Questions and Concerns"></li>
+				<li><input type="submit" value="Submit"></li>
+				</ul>
 			</form>
 		</div>
 		</div>
