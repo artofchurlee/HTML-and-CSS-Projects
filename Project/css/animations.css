@@ -22,7 +22,7 @@
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
     border-radius: 6px;
     cursor: pointer;
-    transition-property: background;
+    
     transition-duration: .4s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
