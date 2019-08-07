@@ -1,6 +1,7 @@
 /* Body */
 body {
-    margin:0% /* Ensures site displays to edges of screen */
+    margin:0%; /* Ensures site displays to edges of screen */
+    position: relative
 }
 
 /* Navbar */
@@ -198,5 +199,4 @@ img:hover {
 	100% {
 		opacity: 1;
 	}
-}
 }
